@@ -1,0 +1,135 @@
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+    font-family: "proxima-nova",sans-serif;
+}
+
+.top {
+	padding: 20px 0;
+}
+
+#Sports {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#navbar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	margin: 0;
+	height: 86px;
+	padding: 0;
+	width: 100%;
+	background-color: #007bc0;
+	text-align: center;
+	color: #ffffff;
+	font-family: "proxima-nova",sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	display: block;
+}
+
+.logo li {
+	display: inline-block;
+}
+
+.navigation li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 20px;
+}
+
+.navigation ul {
+	text-align: center;
+	padding: 0;
+	padding-top: 12px;
+}
+
+.navigation a {
+	display: block;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.navigation a:hover {
+	background-color: #00659e;
+	color: #ffffff;
+    text-decoration: none;
+}
+
+.navigation a.active {
+	background-color: #23527c;
+}
+
+.slide {
+	position: relative;
+	padding: 46px 0;
+}
+
+.slide img {
+	display: block;
+	height: 70%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.centered {
+	font-size: 36px;
+	color: #ffffff;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.subtitle {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.content {
+	padding: 20px 0;
+	background: #f9f9f9;
+}
+
+.container {
+	text-align: center;
+}
+
+.button a {
+	display: inline-block;
+	text-transform: uppercase;
+	border: 2px solid #007dc2;
+	border-radius: 10px;
+	font-weight: 400;
+	text-decoration: none;
+	color: #337ab7;
+	padding: 10px 20px;
+	border-radius: 35px;
+	background-color: transparent;
+}
+
+.button a:hover {
+	background: #007dc2;
+	transition: background-color 0.3s ease;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+footer {
+	background: #252525;
+	padding: 50px 0 10px 0;
+	text-align: center;
+	color: white;
+}
